@@ -27,7 +27,7 @@ BEGIN {
   has_attribute_ok ( $err, "stack_trace" );
 
   # Throwing
-  throws_ok { $err->throw() } 'DBIx::Error';
+  throws_ok { $err->throw() } "DBIx::Error";
 }
 
 # Exception class generation
