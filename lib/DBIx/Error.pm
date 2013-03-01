@@ -726,7 +726,7 @@ the C<define_exception_classes()> class method.  For example:
       "MY001" => "SomethingBadHappened"
     );
 
-    __PACKAGE__->meta->make_immutable();
+    __PACKAGE__->meta->make_immutable ( inline_constructor => 0 );
 
     1;
 
