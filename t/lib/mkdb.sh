@@ -6,7 +6,7 @@ TESTDB="$DIR/test.db"
 rm -f "$TESTDB"
 sqlite3 "$TESTDB" <<EOF
 CREATE TABLE test (
-	id integer primary key,
+	id integer PRIMARY KEY NOT NULL,
 	name text NOT NULL
 );
 EOF
