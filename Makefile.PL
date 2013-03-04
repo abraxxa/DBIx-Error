@@ -9,6 +9,7 @@ test_requires "Test::Moose";
 test_requires "DBI";
 test_requires "DBD::SQLite";
 test_requires "DBIx::Class";
+test_requires "DBIx::Class::Schema";
 test_requires "FindBin";
 test_requires "File::Spec::Functions";
 
