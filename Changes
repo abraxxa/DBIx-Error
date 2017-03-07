@@ -1,3 +1,5 @@
+    - fix ShowErrorStatement typo (RT#119688)
+
 1.0.1	2013-03-04
     - add test dependency upon DBIx::Class::Schema
 

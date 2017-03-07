@@ -580,7 +580,7 @@ __PACKAGE__->meta->make_immutable ( inline_constructor => 0 );
 	user => $user,
 	password => $password,
 	HandleError => DBIx::Error->HandleError,
-	ShowErrorStatment => 1,
+	ShowErrorStatement => 1,
 	unsafe => 1,
     } );
     try {
@@ -610,7 +610,7 @@ __PACKAGE__->meta->make_immutable ( inline_constructor => 0 );
 	user => $user,
 	password => $password,
 	HandleError => DBIx::Error->HandleError,
-	ShowErrorStatment => 1,
+	ShowErrorStatement => 1,
 	unsafe => 1,
       },
     );
